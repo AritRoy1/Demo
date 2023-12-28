@@ -12,3 +12,6 @@ def Mul(request):
     
 def asd(request):
     return HttpResponse("kkjhgg")
+
+def index(request):
+    return HttpResponse("kkjhgg")
