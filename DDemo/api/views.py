@@ -10,3 +10,5 @@ def Calculate(request):
 def Mul(request):
     return HttpResponse("multiplay")
     
+def asd(request):
+    return HttpResponse("kkjhgg")
