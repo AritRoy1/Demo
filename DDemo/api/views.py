@@ -19,3 +19,5 @@ def index(request):
 def index(request):
     return HttpResponse("kkjhgg")
 
+def sum(request):
+    return HttpResponse(10+20)
