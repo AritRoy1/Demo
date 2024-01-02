@@ -20,4 +20,6 @@ def index(request):
     return HttpResponse("kkjhgg")
 
 def sum(request):
+    print("****((()))")
+    print("&&&&&&&&&&")
     return HttpResponse(10+20)
