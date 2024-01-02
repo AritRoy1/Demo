@@ -14,4 +14,5 @@ def asd(request):
     return HttpResponse("kkjhgg")
 
 def index(request):
+    print("jhgfdfg")
     return HttpResponse("kkjhgg")
