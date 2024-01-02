@@ -13,5 +13,11 @@ def asd(request):
     return HttpResponse("kkjhgg")
 
 def index(request):
+    print("jhgfdfg")
     return HttpResponse("kkjhgg")
 
+def index(request):
+    return HttpResponse("kkjhgg")
+
+def sum(request):
+    return HttpResponse(10+20)
