@@ -1,4 +1,5 @@
 from django.shortcuts import render, HttpResponse
+from .models import *
 # Create your views here.
 def Sum(request):
     return HttpResponse("knki dihdkd h")
@@ -16,10 +17,12 @@ def index(request):
     print("jhgfdfg")
     return HttpResponse("kkjhgg")
 
-def index(request):
+def indexx(request):
+    val = Module.objects.create(first_name="ARIT", last_name="ROY", email = "examplale@gmail.com",
+                                phone="1234567")
     return HttpResponse("kkjhgg")
 
 def sum(request):
-    print("****((()))")
-    print("&&&&&&&&&&")
+    print(12+12)
     return HttpResponse(10+20)
+
