@@ -7,4 +7,7 @@ urlpatterns = [
     path("api/", views.Sum),
     path('cal/', views.Calculate),
     path('mul/', views.Mul),
+    path('asd/', views.asd),
+    
+    
 ]
