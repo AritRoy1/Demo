@@ -26,3 +26,6 @@ def sum(request):
     print(12+12)
     return HttpResponse(10+20)
 
+def sdf(request):
+    print("zfghj")
+    return HttpResponse("lkjhgfd")
