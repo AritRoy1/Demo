@@ -24,6 +24,8 @@ def indexx(request):
 
 def sum(request):
     print(12+12)
+    print("something else ")
+    print("well")
     return HttpResponse(10+20)
 
 def sdf(request):
