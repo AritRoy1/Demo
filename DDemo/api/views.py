@@ -34,3 +34,6 @@ def sdf(request):
 
 def sdfgh(request):
     return HttpResponse("lkjhgfd")
+
+print("lkjhgf")
+print("lkjhgf")
